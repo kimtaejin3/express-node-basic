@@ -1,0 +1,25 @@
+{
+  "name": "express-node-basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kimtaejin3/express-node-basic.git",
+  "author": "Taejin Kim <rlaxowls1316@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":"babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "babel":{
+    "presets":[
+      "@babel/preset-env"
+    ]
+  }
+}
